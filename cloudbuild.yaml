@@ -6,5 +6,5 @@ steps:
       - name: 'gcr.io/cloud-builders/npm'
         args: ['run', 'build']
       # Deploy
-      - name: gcr.io/project-id/firebase
+      - name: gcr.io/cicd-demo-29fe3/firebase
         args: ['deploy', '--project=cicd-demo-29fe3', '--only=hosting']
